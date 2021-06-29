@@ -14,6 +14,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+xcode-select -p
+
 # Packages the Outline iOS client on Travis. Expects to be invoked through `yarn do`.
 ./apple/scripts/install_fastlane.sh -p ios
 pushd platforms/ios
